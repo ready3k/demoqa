@@ -19,3 +19,4 @@ class FormPage(BasePage):
         self.hobbies_check_box = WebElement(driver, 'div.custom-checkbox:nth-child(2)')
         self.state = WebElement(driver, '#state > div:nth-child(1)')
         self.city = WebElement(driver, '#city > div:nth-child(1)')
+        self.user_form = WebElement(driver, '#userForm')

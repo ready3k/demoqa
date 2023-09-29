@@ -14,3 +14,4 @@ class ElementsPage(BasePage):
         self.text_center = WebElement(driver, 'div.col-12:nth-child(2)')
         self.btn_sidebar_first_checkbox = WebElement(driver, 'div:nth-child(1) > div > ul > #item-1 > span')
         self.test_loc = WebElement(driver, 'div:nth-child(1) > div > ul > li')
+        self.block_menu = WebElement(driver, 'div.row > div:nth-child(1)')
